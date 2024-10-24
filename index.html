@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAGAR_SHARMA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9300e057c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="S.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi,</h1>
+                <h1>I'm <span>SAGAR</span> SHARMA<br>from India</h1>
+                <p><i>DATA SCIENTIST</i></p>
+            </div>
+        </div>
+    </div>
+<!-- --------------------about-------------------- -->    
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated B.Tech student specializing in Electronics and Communication Engineering, possessing a strong academic background and hands-on project experience. Eager to apply technical skills and theoretical knowledge in a challenging working environment to gain practical experience and contribute to innovative projects.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links activelinks" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p> 
+                    </div>
+                    <div class="tab-contents activetab" id="skills">
+                        <ul>
+                            <li><span>Data Visualizaton:</span><br><i>Power BI, Matplotlib, Seaborn</i></li>
+                            <li><span>Programming Language:</span><br><i>Python, SQL</i></li>
+                            <li><span>Machine Learning & AI:</span><br><i>Supervised/Unsupervised Learning, Regression, Classification, Clustering, Neural Networks, Natural Language Processing (NLP)</i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>IBM Training :</span><br><i>Completed a comprehensive training program conducted by IBM, focusing on machine learning and deep learning. Designed and implemented an Al chat bot capable of understanding and responding to user queries. Enhanced understanding of AI concepts and their practical applications in real-world scenarios.</i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bechelor of Technology </span><br><i>Guru Gobind Singh Indraprastha University, Sector 16 C, Dwarka, New Delhi 110078, INDIA </i></li>
+                            <li><span>2021</span><br><i>GovermentBboys Senior Secondry School, Number-1, Madangir, New Delhi 110062,INDIA </i></li>
+                            <li><span>2019</span><br><i>GovermentBboys Senior Secondry School(Tigri), Madangir, New Delhi 110062,INDIA</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------Services------------------------------------- -->    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>DATA Predict</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit debitis sint perferendis, et nihil ratione eveniet veritatis beatae aperiam, delectus optio repellat provident vitae officiis pariatur distinctio aliquam possimus neque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>DATA Predict</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit debitis sint perferendis, et nihil ratione eveniet veritatis beatae aperiam, delectus optio repellat provident vitae officiis pariatur distinctio aliquam possimus neque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>DATA Predict</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit debitis sint perferendis, et nihil ratione eveniet veritatis beatae aperiam, delectus optio repellat provident vitae officiis pariatur distinctio aliquam possimus neque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------portfolio--------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="build-your-own-chatbot-level-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connectd you to the talented people ariund the world download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="build-your-own-chatbot-level-1.png">
+                    <div class="layer">
+                        <h3>github</h3>
+                        <p>the app connectd you to the talented people ariund the world download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="build-your-own-chatbot-level-1.png">
+                    <div class="layer">
+                        <h3>colab</h3>
+                        <p>the app connectd you to the talented people ariund the world download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div> 
+<!-- ----------------------Contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sharmasagar3589@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9667020157</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/sagarsharma10102002/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_s_a_g_a_r_01_/profilecard/?igsh=MXg4dHQ0dnoyNHgwcQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright © Made by SAGAR </p>
+        </div>
+    </div>
+    
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelinks");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelinks");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+</script>   
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script> 
+
+</body>
+</html>
